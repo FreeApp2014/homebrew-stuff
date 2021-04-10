@@ -1,9 +1,9 @@
 class Openrevolution < Formula
   desc "Command-line tools for Nintendo VGM formats"
   homepage "https://github.com/ic-scm/openrevolution"
-  url "https://github.com/ic-scm/openrevolution/archive/v2.6.0.tar.gz"
-  version "2.6.0"
-  sha256 "7dbde1e1f62f4f1da61653dc271446d0f4e9e0130cec005723af3052c7ddc774"
+  url "https://github.com/ic-scm/openrevolution/archive/v2.7.0.tar.gz"
+  version "2.7.0"
+  sha256 "2f9416ab2606dcc6ed4d2328e4d44ca257c9a211e34ef55bfdca576d04911071"
   license "GPLv3"
 
   depends_on "rt-audio" => :build
