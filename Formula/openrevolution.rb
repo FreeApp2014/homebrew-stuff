@@ -6,7 +6,7 @@ class Openrevolution < Formula
   sha256 "2f9416ab2606dcc6ed4d2328e4d44ca257c9a211e34ef55bfdca576d04911071"
   license "GPLv3"
 
-  depends_on "rt-audio" => :build
+  depends_on "rtaudio" => :build
 
   def install
     ENV.deparallelize
