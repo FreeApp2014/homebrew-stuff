@@ -16,5 +16,9 @@ class Auezabiv < Formula
     end
     test do
     end
+    bottle do
+      root_url "https://s.neofetch.win/hb-binary"
+      sha256 cellar: :any_skip_relocation, high_sierra: "01bba9712478db442ddc476fdeb508d537c800a18c07e639686d7aabbc19780f"
+    end
   end
   
