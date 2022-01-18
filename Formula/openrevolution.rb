@@ -21,4 +21,8 @@ class Openrevolution < Formula
       output2 = shell_output("#{bin}/brstm_rt --version 2>&1")
       assert_match "v#{version}", output2
   end
+  bottle do
+    root_url "https://s.neofetch.win/hb-binary"
+    sha256 cellar: :any, high_sierra: "12733556282081c0087d3137807e5f131052fa7a14804f1142985ca218360e49"
+  end
 end
