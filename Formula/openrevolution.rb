@@ -1,12 +1,12 @@
 class Openrevolution < Formula
   desc "Command-line tools for Nintendo VGM formats"
   homepage "https://github.com/ic-scm/openrevolution"
-  url "https://github.com/ic-scm/openrevolution/archive/v2.7.0.tar.gz"
-  version "2.7.0"
-  sha256 "2f9416ab2606dcc6ed4d2328e4d44ca257c9a211e34ef55bfdca576d04911071"
+  url "https://github.com/ic-scm/openrevolution/archive/v2.9.0.tar.gz"
+  version "2.9.0"
+  sha256 "a6507927a9191bc9d2e56c0ab0ec5d22486a32e48181e79cf5d5a817b8ac84d1"
   license "GPLv3"
 
-  depends_on "rtaudio" => :build
+  depends_on "rtaudio"
 
   def install
     ENV.deparallelize
@@ -22,7 +22,8 @@ class Openrevolution < Formula
       assert_match "v#{version}", output2
   end
   bottle do
-    root_url "https://s.neofetch.win/hb-binary"
-    sha256 cellar: :any, high_sierra: "12733556282081c0087d3137807e5f131052fa7a14804f1142985ca218360e49"
+    root_url "http://bin.eol.pw/homebrew"
+    sha256 cellar: :any, sonoma: "6d28fb75c1e18a4ab9c7513024b0b5958d0e5a44b17f965138fb8afd42d810c8"
+    sha256 cellar: :any, arm64_sonoma: "3f0a2abddfb57f7749cbd8db97808db8cb500a3c83a15289fd08621fb5dc166e"
   end
 end
