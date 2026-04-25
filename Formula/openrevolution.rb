@@ -23,6 +23,7 @@ class Openrevolution < Formula
   end
   bottle do
     root_url "http://bin.eol.pw/homebrew"
+    sha256 cellar: :any, catalina: "e006f0969c36766f87ecaff741039cd0a93db7428d7e62c844d8f2f9970ad376"
     sha256 cellar: :any, sonoma: "6d28fb75c1e18a4ab9c7513024b0b5958d0e5a44b17f965138fb8afd42d810c8"
     sha256 cellar: :any, arm64_sonoma: "3f0a2abddfb57f7749cbd8db97808db8cb500a3c83a15289fd08621fb5dc166e"
   end
